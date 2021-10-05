@@ -2,7 +2,7 @@ puts "Année de naissance ?"
 print "< "
 birthday = gets.chomp.to_i
 now = 2021
-age = (now - birthday)
+age = 0
 while now >= birthday
-  print birthday +=1 + age
+  puts "#{birthday +=1}" " " "#{age +=1}"
 end
