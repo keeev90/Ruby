@@ -10,4 +10,4 @@ data_base = []
     data_base[i] = "jean.dupont.#{index}@email.fr"
 end
 
-puts data_base
+print data_base

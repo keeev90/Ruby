@@ -8,7 +8,7 @@ data_base = []
     end
 
     data_base[i] = "jean.dupont.#{index}@email.fr"
-    if i % 2 != 0
+    if i % 2 == 1
         puts data_base[i]
     end
 end

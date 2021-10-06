@@ -3,5 +3,6 @@ print "< "
 number = gets.chomp.to_i
 x = 0
 while x <= number
-  puts x +=1
+  puts x
+  x = x + 1
 end
